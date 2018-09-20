@@ -1,0 +1,58 @@
+.body-container
+{
+  margin-top: 90px;
+    padding:40px;
+    position: relative;
+  background-color: white;
+  
+}
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  justify-content: space-evenly;
+}
+.grid-item
+{
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  word-wrap: break-word;
+}
+.grid-title
+{
+  height: 20px;
+  text-align: center;
+  
+}
+.body-container
+{
+  position: relative;
+
+}
+.faicon {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float: left;
+  background-color: white;
+  border-style: double;
+}
+.faicon:hover {
+    opacity: 0.7;
+}
+.service
+{
+  color: blue;
+  font-weight: bold;
+}
